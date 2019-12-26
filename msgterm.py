@@ -350,7 +350,7 @@ class MsgTerm:
         print('')
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     # Test messages and colors
     MsgTerm.verbosity(MsgTerm.DEBUG)  # Set level of verbosity
     MsgTerm.message('Text messages')
